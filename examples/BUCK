@@ -1,0 +1,38 @@
+cxx_binary(
+  name = '1.hello',
+  srcs = [
+    '1.hello.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:blackhole',
+  ],
+)
+
+cxx_binary(
+  name = '2.0.builder',
+  srcs = [
+    '2.0.builder.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:blackhole',
+  ],
+)
+
+cxx_binary(
+  name = '2.simple',
+  srcs = [
+    '2.simple.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:blackhole',
+  ],
+)

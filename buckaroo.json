@@ -1,0 +1,13 @@
+{
+  "name": "blackhole",
+  "dependencies": {
+    "boost/optional": "1.63.0",
+    "boost/preprocessor": "1.63.0",
+    "boost/variant": "1.63.0",
+    "boost/asio": "1.63.0",
+    "boost/thread": "1.63.0",
+    "boost/spirit": "1.63.0",
+    "miloyip/rapidjson": "1.1.0",
+    "khizmax/cds": "2.2.0"
+  }
+}

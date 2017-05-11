@@ -3,3 +3,9 @@ bench/*.py
 docs
 
 .clang_complete
+
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
